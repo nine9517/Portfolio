@@ -67,7 +67,9 @@ li.border {
 	border-right: 1px solid #dddddd !important;
 	padding: 10px;
 }
-
+.progress{
+	margin-top: 6px;
+}
 a {
 	color: #777777;
 	text-decoration: none;
@@ -128,7 +130,7 @@ footer {
 	background-color: #666666;
 	width: 100%;
 	border-bottom: none;
-	color: #777777;
+	color: #fff;
 	top:100%;
 	margin-top: -70px;
 	text-align: center;
@@ -213,7 +215,7 @@ footer {
 #project-portfolio {
 	position: relative;
 	text-align: left;
-	width: 650px;
+	width: 100%;
 	top: 30px;
 	margin-left: 125px;
 	margin-bottom: 50px;
@@ -230,7 +232,7 @@ footer {
 	width: 200px;
 	height: 200px;
 	background-image: url("../../assets/images/profile.jpg");
-	background-position-x: -50px;
+	/* background-position-x: -0px; */
 	background-size: cover;
 }
 #bio-image {
@@ -249,4 +251,18 @@ footer {
 #project-portfolio {
 	padding: 15px;
 	height: 500px;
+}
+.fadeDox{
+	-webkit-animation-name: fadeBox;
+    -webkit-animation-duration: 4s;
+    animation-name: fadeBox;
+    animation-duration: 4s;
+}
+@keyframes fadeBox {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
