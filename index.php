@@ -15,7 +15,7 @@
 
 		<nav>
 			<ul>
-				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="index.php">About</a></li>
 				<li class="border"><a href="portfolio.html">Portfolio</a></li>
 			</ul>
 		</nav>
